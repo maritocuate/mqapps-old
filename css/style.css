@@ -1,0 +1,41 @@
+body{
+	background-color: #252525;
+	color: #00ff36;
+	font-family: 'Oswald', sans-serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+
+.poligon {
+	height: 150px;
+	width: 150px;
+	transform: skewX(-10deg);
+	border-radius: 15px;
+	
+}
